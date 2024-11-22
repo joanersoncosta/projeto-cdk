@@ -1,0 +1,19 @@
+{
+  "version": "38.0.1",
+  "files": {
+    "c4affbeab64de3e8c400e1d83754b85656e9b62615384344bfde70af3160cbd0": {
+      "source": {
+        "path": "ClientePet.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "c4affbeab64de3e8c400e1d83754b85656e9b62615384344bfde70af3160cbd0.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
